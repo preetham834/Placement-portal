@@ -40,7 +40,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </p>
 	<form method="POST" action="hodcompanylist.php">
         <table align="center">
-			<h1 style="text-align:center;font-size:150%">List Of Eligible Student</h1>
+			<h1 style="text-align:center;font-size:160%">List Of Eligible Student</h1>
 		
 		<tr><td><label>Select a Company:</label></td>
 		<td><select name="company" required>
